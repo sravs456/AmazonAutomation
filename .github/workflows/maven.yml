@@ -39,4 +39,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
           name: Test Reports
-          path: C:\Users\Sravani\IdeaProjects\SeleniumCucumber
+          path: C:\Users\Sravani\IdeaProjects\SeleniumCucumber\TestReports

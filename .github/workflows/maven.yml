@@ -39,7 +39,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
           name: Test Reports
-          path: C:/Users/Sravani/IdeaProjects/SeleniumCucumber/TestReports
+          path: build
           if-no-files-found: ignore
      
     

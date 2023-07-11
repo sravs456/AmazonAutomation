@@ -37,8 +37,8 @@ jobs:
     - name: Upload static site content
       uses: actions/upload-artifacts@v2
       with:
-        name: static-site
-         path:.next/
+         name: static-site
+         path: .next/
         
       
         # Step 4: Save test reports as artifacts

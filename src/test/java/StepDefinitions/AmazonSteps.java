@@ -60,7 +60,7 @@ public class AmazonSteps {
         String brand = driver.findElement(By.xpath("//body[1]/div[4]/div[2]/div[3]/div[11]/div[49]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/span[1]")).getText();
 
         Assert.assertEquals("128 GB", size);
-        Assert.assertEquals("Blue", color);
+        Assert.assertEquals("Midnight", color);
         Assert.assertEquals("Apple", brand);
 
         driver.quit();
